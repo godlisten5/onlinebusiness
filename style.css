@@ -1,0 +1,232 @@
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightgreen;
+            color: black;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #0056b3;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .blog-post {
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .blog-post img {
+            width: 100%;
+            height: auto;
+        }
+
+        .blog-post-content {
+            padding: 20px;
+        }
+
+        .blog-post h2 {
+            margin-top: 0;
+        }
+
+        .blog-post p {
+            line-height: 1.6;
+        }
+
+
+        /* Add styles for the .managers section and .manager divs */
+        .managers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+
+        .manager {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .manager img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        /* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:mediumseagreen;
+}
+
+/* Container for content */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Intro paragraph */
+.intro {
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Section headings */
+h2 {
+    font-size: 1.5em;
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1em;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Add some spacing to paragraphs and headings */
+h2, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Contact icons container */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 2.5em;
+    color: #34495e;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: #2980b9;
+}
+
+/* Icon specific colors */
+.whatsapp:hover {
+    color: #25d366;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.instagram:hover {
+    color: #e4405f;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.youtube:hover {
+    color: #ff0000;
+}
+
+/* Contact details section */
+.contact-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    color: black;
+}
+
+.contact-details strong {
+    color: #2c3e50;
+}
+
+    
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color:darkslateblue;
+            
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+            color: white;
+        }
+    
